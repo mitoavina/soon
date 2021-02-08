@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // Load Composer's autoloader
-require 'vendor/autoload.php';
+require '../../.composer/vendor/autoload.php';
 echo 'test2';
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
