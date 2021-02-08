@@ -11,7 +11,7 @@ use PHPMailer\PHPMailer\Exception;
 try{
 require '../../.composer/vendor/autoload.php';
 echo 'test2';}
-catch(Exception $e){echo'tsy mety'};
+catch(Exception $e){echo'tsy mety';}
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
