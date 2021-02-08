@@ -8,8 +8,10 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 // Load Composer's autoloader
+try{
 require '../../.composer/vendor/autoload.php';
-echo 'test2';
+echo 'test2';}
+catch(Exception $e){echo'tsy mety'};
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
